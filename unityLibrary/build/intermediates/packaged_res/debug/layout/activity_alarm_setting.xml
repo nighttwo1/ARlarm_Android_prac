@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TimePicker
+        android:id="@+id/timepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:scaleType="fitXY"
+        android:theme="@style/TimePickerStyle"
+        android:timePickerMode="spinner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gray_rounded_squre"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_selectedDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/calendar_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_date_range_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="요일 선택"
+            android:textSize="16sp" />
+
+        <ca.antonious.materialdaypicker.MaterialDayPicker
+            android:id="@+id/day_picker"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="게임 선택"
+            android:textSize="16sp" />
+
+        <lib.kingja.switchbutton.SwitchMultiButton
+            android:id="@+id/select_game_btn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:padding="8dp"
+            app:selectedColor="@color/ARlarm_blue"
+            app:selectedTab="0"
+            app:strokeRadius="10dp"
+            app:strokeWidth="1dp"
+            app:switchTabs="@array/switch_games"
+            app:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="무적 알람"
+            android:textSize="16sp" />
+
+        <lib.kingja.switchbutton.SwitchMultiButton
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            app:selectedColor="@color/ARlarm_blue"
+            app:selectedTab="0"
+            app:strokeRadius="10dp"
+            app:strokeWidth="1dp"
+            app:switchTabs="@array/switch_superalarm"
+            app:textSize="14sp" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggleGroup_super"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="#00000000">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/super1_btn"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5분뒤"
+                android:textColor="@color/ARlarm_blue"
+                android:textColorLink="#03A9F4"
+                app:shapeAppearance="@style/Rounded"
+                app:strokeColor="@color/ARlarm_blue"
+                app:strokeWidth="1dp"
+                app:textSize="14sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/super2_btn"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10분뒤"
+                android:textColor="@color/ARlarm_blue"
+                app:shapeAppearance="@style/Rounded"
+                app:strokeColor="@color/ARlarm_blue"
+                app:strokeWidth="1dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/super3_btn"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="15분뒤"
+                android:textColor="@color/ARlarm_blue"
+                app:shapeAppearance="@style/Rounded"
+                app:strokeColor="@color/ARlarm_blue"
+                app:strokeWidth="1dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/super4_btn"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="20분뒤"
+                android:textColor="@color/ARlarm_blue"
+                app:shapeAppearance="@style/Rounded"
+                app:strokeColor="@color/ARlarm_blue"
+                app:strokeWidth="1dp" />
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/ARlarm_blue"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/cancle_btn"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:backgroundTint="@color/ARlarm_blue"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="취소"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:strokeColor="@color/ARlarm_blue"
+                app:strokeWidth="0dp" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="1dp"
+                android:layout_height="60dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button2"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:backgroundTint="@color/ARlarm_blue"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="추가"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:strokeColor="@color/ARlarm_blue"
+                app:strokeWidth="0dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

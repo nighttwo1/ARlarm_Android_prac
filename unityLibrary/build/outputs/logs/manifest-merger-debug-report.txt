@@ -1,0 +1,187 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:1-55:12
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:1-55:12
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:1-55:12
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:1-55:12
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:1-55:12
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:1-55:12
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:1-55:12
+	package
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:70-98
+		INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:1-55:12
+		INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:99-145
+	android:versionCode
+		INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:1-55:12
+		INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:4:3-65
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:4:20-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:5:3-78
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:5:20-76
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:6:3-75
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:6:20-73
+application
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:9:3-47:17
+activity#com.unity3d.player.AlarmStartActivity
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:10:5-12:16
+	android:theme
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:11:9-50
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:10:15-49
+activity#com.unity3d.player.LoadingActivity
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:14:5-20:16
+	android:theme
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:15:9-50
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:14:15-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:16:7-19:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:17:9-61
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:17:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:18:9-69
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:18:19-66
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:22:5-25:16
+	android:screenOrientation
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:22:111-153
+	android:launchMode
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:22:154-185
+	android:hardwareAccelerated
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:22:368-403
+	android:configChanges
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:22:186-367
+	android:theme
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:22:69-110
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:22:15-68
+meta-data#unityplayer.UnityActivity
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:24:7-82
+	android:value
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:24:59-79
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:24:18-58
+activity#com.unity3d.player.AlarmMainActivity
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:27:5-29:16
+	android:theme
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:28:9-50
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:27:15-48
+activity#com.unity3d.player.AlarmSettingActivity
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:31:5-33:16
+	android:theme
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:32:7-49
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:31:15-51
+receiver#com.unity3d.player.AlarmReceiver
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:35:5-37:34
+	android:enabled
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:36:9-31
+	android:exported
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:37:9-32
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:35:15-43
+service#com.unity3d.player.AlarmService
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:38:5-40:43
+	android:enabled
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:39:9-31
+	android:exported
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:40:9-32
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:38:14-42
+meta-data#unity.tango-enable
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:42:5-73
+	android:value
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:42:50-70
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:42:16-49
+meta-data#unityplayer.SkipPermissionsDialog
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:43:5-88
+	android:value
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:43:65-85
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:43:16-64
+meta-data#unity.splash-mode
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:44:5-69
+	android:value
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:44:49-66
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:44:16-48
+meta-data#unity.splash-enable
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:45:5-74
+	android:value
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:45:51-71
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:45:16-50
+meta-data#unity.build-id
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:46:5-101
+	android:value
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:46:46-98
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:46:16-45
+uses-feature#0x00020000
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:48:3-52
+	android:glEsVersion
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:48:17-49
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:49:3-63
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:49:20-60
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:50:3-65
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:50:20-62
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:51:3-84
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:51:20-81
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:52:3-88
+	android:required
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:52:61-85
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:52:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:53:3-99
+	android:required
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:53:72-96
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:53:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:54:3-108
+	android:required
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:54:81-105
+	android:name
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml:54:17-80
+uses-sdk
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\ARlarm_U_exported\unityLibrary\src\main\AndroidManifest.xml

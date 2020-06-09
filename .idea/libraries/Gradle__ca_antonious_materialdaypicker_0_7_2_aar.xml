@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ca.antonious:materialdaypicker:0.7.2@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d083ee518320d6e8048d7c2b83abd2c3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d083ee518320d6e8048d7c2b83abd2c3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/ca.antonious/materialdaypicker/0.7.2/867dd4851f691849a678a9ffcbbb9f4faf3d6ae8/materialdaypicker-0.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

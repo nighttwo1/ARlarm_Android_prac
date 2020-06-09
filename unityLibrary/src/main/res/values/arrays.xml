@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="switch_games">
+        <item>먼먼이</item>
+        <item>item2</item>
+        <item>item3</item>
+    </string-array>
+
+    <string-array name="switch_superalarm">
+        <item>5분뒤</item>
+        <item>10분뒤</item>
+        <item>15분뒤</item>
+        <item>20분뒤</item>
+    </string-array>
+
+    <string-array name="switch_tabs">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+    </string-array>
+    <string-array name="switch_country">
+        <item>World</item>
+        <item>China</item>
+    </string-array>
+
+    <string-array name="switch_yn">
+        <item>Disable</item>
+        <item>Enable</item>
+    </string-array>
+</resources>
